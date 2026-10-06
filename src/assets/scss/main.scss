@@ -1,0 +1,71 @@
+@use 'reset';
+@use 'variables';
+
+@font-face {
+  font-family: 'Matter';
+  src: url('../fonts/Matter-Regular.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Matter';
+  src: url('../fonts/Matter-RegularItalic.otf') format('opentype');
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Matter';
+  src: url('../fonts/Matter-Medium.otf') format('opentype');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Matter';
+  src: url('../fonts/Matter-MediumItalic.otf') format('opentype');
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Matter';
+  src: url('../fonts/Matter-SemiBold.otf') format('opentype');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Matter';
+  src: url('../fonts/Matter-SemiBoldItalic.otf') format('opentype');
+  font-weight: 600;
+  font-style: italic;
+  font-display: swap;
+}
+
+:root {
+  --color-bg: #0e0e0e;
+  --color-bg-light: #d0d0d0;
+  --color-text: #ffffff;
+  --color-text-muted: #a9a9a9;
+  --color-text-secondary: #d0d0d0;
+  --color-text-dark: #0f0f0f;
+  --color-accent: #ffffff;
+  --font-heading: 'Instrument Serif', Georgia, serif;
+  --font-body: 'Matter', -apple-system, BlinkMacSystemFont, sans-serif;
+  --spacing-section: 8rem;
+}
+
+body {
+  background-color: var(--color-bg);
+  color: var(--color-text);
+  font-family: var(--font-body);
+  font-size: 1rem;
+  line-height: 1.5;
+}
