@@ -5,7 +5,10 @@ import { personal } from '@/data/portfolio'
 <template>
   <footer class="app-footer">
     <div class="app-footer__row">
-      <p class="app-footer__copyright">&copy;{{ personal.name }}</p>
+      <p class="app-footer__copyright">
+        <span>&copy; 2026 {{ personal.name }}</span>
+        <span>All rights reserved</span>
+      </p>
       <div class="app-footer__contact">
         <h2 class="app-footer__heading">Contact</h2>
         <div class="app-footer__contact-details">
@@ -42,7 +45,10 @@ import { personal } from '@/data/portfolio'
   }
 
   &__copyright {
-    font-size: 1rem;
+    display: flex;
+    flex-direction: column;
+    font-size: 0.875rem;
+    line-height: 1.2;
     letter-spacing: -0.01em;
   }
 

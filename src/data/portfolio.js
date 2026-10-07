@@ -57,9 +57,9 @@ export const personal = {
   name: 'Sara Corona',
   role: 'UI Designer',
   location: 'Italy',
-  bio: 'The legibility of the logo needs to be guaranteed at all times. The logo cannot be used below its minimum size.',
+  bio: 'UI/UX designer and visual designer blending creativity and usability into digital experiences.',
   about:
-    'Working across digital, visual and graphic design, I create experiences and identities that connect ideas, aesthetics and technology across multiple communication channels',
+    'Working across digital, visual and graphic design, I create experiences and identities that connect ideas, aesthetics and technology across different communication channels.',
   email: 'sa.corona7@gmail.com',
   phone: '+39 346 9671021',
   linkedin: '',
